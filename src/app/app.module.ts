@@ -2,8 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatIconModule, /* MaterialModule */ MatRippleModule } from '@angular/material';
-import 'hammerjs';
+import { 
+  MatButtonModule, 
+  MatCardModule, 
+  MatMenuModule, 
+  MatToolbarModule, 
+  MatIconModule, 
+  MatRippleModule 
+} from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -15,13 +21,12 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatButtonModule,
-    MatCardModule,
-    MatMenuModule,
-    MatToolbarModule,
-    MatIconModule,
-    /* MaterialModule, */
-    MatRippleModule
+    MatButtonModule, 
+    MatCardModule, 
+    MatMenuModule, 
+    MatToolbarModule, 
+    MatIconModule, 
+    MatRippleModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
